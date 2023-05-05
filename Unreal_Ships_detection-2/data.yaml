@@ -1,0 +1,15 @@
+names:
+- ContainerShip
+- container ship
+- passenger ship
+- tanker ship
+nc: 4
+roboflow:
+  license: MIT
+  project: unreal_ships_detection
+  url: https://universe.roboflow.com/inatel-qxvuj/unreal_ships_detection/dataset/2
+  version: 2
+  workspace: inatel-qxvuj
+test: ../test/images
+train: Unreal_Ships_detection-2/train/images
+val: Unreal_Ships_detection-2/valid/images
